@@ -1,0 +1,38 @@
+/*
+|------------------------------------------------------------
+| SAMPLE SASS CODE FOR DEMO PURPOSES.
+| 
+| FILE: style.scss
+|------------------------------------------------------------
+*/
+
+// Import some partial files into this main sass file.
+@import './variables';
+@import './base';
+@import './helpers';
+
+
+#content {
+    padding: 30px;
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .content-boxes {
+        margin: 50px auto;
+
+        .content-box {
+            margin: 10px auto;
+            padding: 10px;
+            border: 1px solid #fbfbfb;
+            background: $color-primary;
+
+            &:nth-child(odd) {
+                background: $color-secondary;
+            }
+
+            @extend .nice-box-shadow;
+        }
+    }
+}

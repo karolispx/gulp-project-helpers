@@ -1,0 +1,22 @@
+{
+  "name": "gulp-project-helpers",
+  "version": "1.0.0",
+  "description": "Automating simple tasks using https://gulpjs.com.",
+  "author": {
+    "name": "Karolis Pliauskys",
+    "email": "k.pliauskys@gmail.com",
+    "url": "https://github.com/karolispx"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-inject": "^5.0.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-terser": "^1.2.0",
+    "node-sass": "^4.12.0"
+  }
+}
